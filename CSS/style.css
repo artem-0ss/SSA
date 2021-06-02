@@ -220,11 +220,14 @@ body{
     padding: 13px 30px;
     position: relative;
     left: 38%;
-    border: 1px solid #FFFFFF;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #FFFFFF;
-    background: #333333;
+	transition: 400ms ease 0s;
+	border: 1px solid #FFFFFF;
+}
+.start a:hover{
+	background: #333333;
 }
 .start hr{
     width: 100%;
