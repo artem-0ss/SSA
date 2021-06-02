@@ -1,4 +1,9 @@
-$(document).ready(function (){
+$(document).ready(function () {
+	$('.second__screen').hide();
+	$('.third__screen').hide();
+	$('.fourth__screen').hide();
+	$('.fifth__screen').hide();
+	$('.sixth__screen').hide();
 	$('.radio__button1').click(function (event) {
 		$('.first__screen').toggleClass('active');
 		$('.first__screen').show();
